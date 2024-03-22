@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WtSecond Form</form></title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="Mydiv">
+      <h2>Keshav Tessaract survey Form</h2>
+    </div>
+    <div class="column">
+      <form action="">
+        <label for="fname" class="form-label">Name</label><br />
+
+        <input
+          type="text"
+          class="form-control"
+          id="fname"
+          name="fname"
+          placeholder="Enter your name"
+        /><br />
+        <br />
+        <label for="email" class="form-label">Email</label><br />
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br />
+        <br />
+        <label for="age" class="form-label">Age</label><br />
+        <input
+          type="number"
+          class="form-control"
+          id="age"
+          name="age"
+          placeholder="Enter your age"
+        /><br />
+        <br />
+        <label for="profession">Which option best describes you?</label><br />
+        <select name="profession" id="profession">
+          <option value="Student">Student</option>
+          <option value="Teacher">Teacher</option></select
+        ><br /><br />
+        <br />
+        <label>Would you Recommend Keshav tessaract to be a Friend?</label
+        ><br />
+        <input type="radio" name="recommendation" value="Yes" />Yes<br />
+        <input type="radio" name="recommendation" value="No" />No<br />
+        <input
+          type="radio"
+          name="recommendation"
+          value="Maybe"
+        />Maybe<br /><br />
+        <label for="languages"
+          >Languages and Frameworks known (check all that apply)</label
+        ><br />
+        <input type="checkbox" name="language" id="c" />C<br />
+        <input type="checkbox" name="language" id="cpp" />C++<br />
+        <input type="checkbox" name="language" id="" />C#<br />
+        <input type="checkbox" name="language" id="" />java<br />
+        <input type="checkbox" name="language" id="" />Python<br />
+        <input type="checkbox" name="language" id="" />java Script<br />
+        <input type="checkbox" name="language" id="" />React<br />
+        <input type="checkbox" name="language" id="" />Django<br />
+        <input type="checkbox" name="language" id="" />Spring<br />
+        <br />
+        <label for="comments">Any comments or Suggestions</label><br />
+        <textarea id="comments" name="comments"></textarea><br /><br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
